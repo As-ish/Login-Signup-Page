@@ -1,0 +1,67 @@
+body{
+    background-color:rgba(0, 213, 255, 0.205);
+}
+
+#container{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:200px;
+    left:600px; 
+    box-shadow:10px 10px 10px yellowgreen;  
+}
+
+h2{
+    text-align: center;
+    color:blue;
+    margin-right:85px;
+}
+
+
+.verify{
+    display:block;
+    padding:12px;
+    margin:10px;
+    border: 1px solid blue;
+    border-radius:10px;
+}
+
+#one{
+    font-size:10px;
+    color:blue;
+    margin-right:35px;
+}
+
+#two{
+    font-size:10px;
+    color:blue;
+}
+
+#click{
+    display:block;
+    background-color: blue;
+    margin-top:20px;
+    margin-left:70px;
+    padding:5%;
+    box-shadow:5px 5px 5px brown;
+    font-size:14px;
+    color:white;
+}
+
+.verify:hover{
+    transform: scale(1.1);
+}
+
+#click:active{
+    transform:scale(1.1);
+    background-color: goldenrod;
+}
+
+#container:hover{
+    background-color:deepskyblue;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
